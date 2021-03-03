@@ -1,0 +1,84 @@
+﻿<Window x:Class="wypozyczalnia.Admin_ControlPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wypozyczalnia"
+        mc:Ignorable="d"
+        Title="Admin_ControlPanel" Height="450" Width="380"
+        WindowStyle="None" ResizeMode="NoResize"
+        Background="Transparent" AllowsTransparency="True"
+        MouseDown="Window_MouseDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130"/>
+
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border CornerRadius="10" Grid.RowSpan="2">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#7be9f6" Offset="0.0"/>
+                    <GradientStop Color="#f083da" Offset="1" />
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+
+        <StackPanel Grid.Row="0" VerticalAlignment="Center">
+            <Image Source="Images/logo.png"/>
+        </StackPanel>
+        <Button 
+                HorizontalAlignment="Left"
+                Margin="345,10,0,0" 
+                VerticalAlignment="Top" 
+                Width="25" Height="25"
+                BorderThickness="0"
+                BorderBrush="Transparent"
+                Click="PowerButton_Click"
+                >
+            <Button.Background>
+                <ImageBrush ImageSource="Images/power_icon.png"/>
+            </Button.Background>
+            <Button.Content>
+                <Image Source="Images/power_icon.png"/>
+            </Button.Content>
+        </Button>
+
+        <StackPanel Grid.Row="1" Orientation="Vertical">
+            <Button Content="Add car"
+                Width="130"
+                Height="40"
+                Background="White" 
+                Opacity="0.4"
+                FontWeight="Light"
+                Click="Add_Car_Button_Click"/>
+            <Button Content="Delete car"
+                Width="130"
+                Height="40"
+                Background="White" 
+                Opacity="0.4"
+                FontWeight="Light"
+                    Margin="0,20,0,0"
+                    Click="Delete_Car_Button_Click"/>
+            <Button Content="Delete user"
+                Width="130"
+                Height="40"
+                Background="White" 
+                Opacity="0.4"
+                FontWeight="Light"
+                    Margin="0,20,0,0"
+                    Click="Delete_User_Button_Click"/>
+            <Button Content="Reservation calendar"
+                Width="130"
+                Height="40"
+                Background="White" 
+                Opacity="0.4"
+                FontWeight="Light"
+                    Margin="0,20,0,0"
+                    Click="Reservation_Calendar_Button_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

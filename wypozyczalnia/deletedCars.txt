@@ -1,0 +1,3 @@
+7;Ford Focus;Images/focus.png;2019;350;Manual;Hatchback;PB;600
+8;Ford Focus;Images/focus.png;2019;200;Manual;Estate;ON;21
+9;Ford Focus;Images/focus.png;2019;200;Automatic;Estate;ON;201

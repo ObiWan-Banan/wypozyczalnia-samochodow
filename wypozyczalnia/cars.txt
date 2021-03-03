@@ -1,0 +1,6 @@
+1;Seat Ibiza;Images/ibiza.png;2017;95;0;3;0;50
+2;Ford Focus;Images/focus.png;2015;150;1;1;0;100
+3;BMW 5 Series;Images/bmw5.png;2018;190;1;0;1;222
+4;Mazda MX-5;Images/mx5.png;2020;184;0;5;0;300
+5;Range Rover Velar;Images/velar.png;2020;180;1;2;1;350
+6;Paseratti;Images/paseratti.png;2020;150;0;0;1;150

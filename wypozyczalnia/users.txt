@@ -1,0 +1,2 @@
+1;wojownik;body;12.02.1999
+2;czolgista;kropkapl;29.03.1985
